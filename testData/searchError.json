@@ -1,0 +1,1 @@
+{"error": {"code": "VALIDATION_ERROR", "description": "'search?term=waffle house&latitude=33.9202195&longitude=-84.5348863' is not a 'business-id-or-alias'", "field": "business_id", "instance": "search?term=waffle house&latitude=33.9202195&longitude=-84.5348863"}}

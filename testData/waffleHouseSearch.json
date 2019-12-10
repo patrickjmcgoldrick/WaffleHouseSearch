@@ -1,0 +1,936 @@
+{
+    "businesses": [
+        {
+            "id": "NMYuTjAxXEmCCtmeW_nC8g",
+            "alias": "waffle-house-marietta-54",
+            "name": "Waffle House",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ZNh935p8WZjjuhraVBRxww/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-54?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 12,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "waffles",
+                    "title": "Waffles"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 33.9194137,
+                "longitude": -84.548711
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1398 Austell Rd",
+                "address2": "",
+                "address3": null,
+                "city": "Marietta",
+                "zip_code": "30008",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "1398 Austell Rd",
+                    "Marietta, GA 30008"
+                ]
+            },
+            "phone": "+17705908810",
+            "display_phone": "(770) 590-8810",
+            "distance": 1278.7700828315546
+        },
+        {
+            "id": "XeDbOF8yoiF8zDX0JLLTuQ",
+            "alias": "waffle-house-smyrna-20",
+            "name": "Waffle House",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mhXiDJk_g2xNG-SWH0gILA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-smyrna-20?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 9,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.8962124134185,
+                "longitude": -84.539661592529
+            },
+            "transactions": [],
+            "location": {
+                "address1": "2316 South Cobb Dr",
+                "address2": "",
+                "address3": null,
+                "city": "Smyrna",
+                "zip_code": "30080",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "2316 South Cobb Dr",
+                    "Smyrna, GA 30080"
+                ]
+            },
+            "phone": "+14042636648",
+            "display_phone": "(404) 263-6648",
+            "distance": 2705.593540338627
+        },
+        {
+            "id": "OCWD3vg-Mp0vkcshU2uTIw",
+            "alias": "waffle-house-marietta-30",
+            "name": "Waffle House",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/apMH2Xf-t6LGv2EAPowaFw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-30?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 12,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                }
+            ],
+            "rating": 2.0,
+            "coordinates": {
+                "latitude": 33.9506030047811,
+                "longitude": -84.517505094409
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "1176 Roswell Rd",
+                "address2": "",
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30062",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "1176 Roswell Rd",
+                    "Marietta, GA 30062"
+                ]
+            },
+            "phone": "+17704256645",
+            "display_phone": "(770) 425-6645",
+            "distance": 3739.703965789958
+        },
+        {
+            "id": "AF5IrZX1LmMceXVylopaDA",
+            "alias": "waffle-house-marietta-51",
+            "name": "Waffle House",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/s9MwqiiNvw7i3WV6R4FheA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-51?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 33.9185753,
+                "longitude": -84.5819517
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1410 Dura Dr",
+                "address2": "",
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30008",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "1410 Dura Dr",
+                    "Marietta, GA 30008"
+                ]
+            },
+            "phone": "+17707926805",
+            "display_phone": "(770) 792-6805",
+            "distance": 4346.667626282212
+        },
+        {
+            "id": "Le5WBxc3hM6DMsGpnVnnGg",
+            "alias": "waffle-house-smyrna-17",
+            "name": "Waffle House",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/DHN5p2Ph4UubnW2jJngPVQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-smyrna-17?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 27,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 33.872593,
+                "longitude": -84.5288376
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "3335 S Cobb Dr",
+                "address2": "",
+                "address3": "",
+                "city": "Smyrna",
+                "zip_code": "30080",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "3335 S Cobb Dr",
+                    "Smyrna, GA 30080"
+                ]
+            },
+            "phone": "+17703199754",
+            "display_phone": "(770) 319-9754",
+            "distance": 5325.164287356312
+        },
+        {
+            "id": "UqcRg9VDZucN-UNoooILog",
+            "alias": "waffle-house-marietta-46",
+            "name": "Waffle House",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/9tk1dgHCA68mU4xbsEjtQg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-46?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 34,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.9005967,
+                "longitude": -84.4770666
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2642 Windy Hill Rd",
+                "address2": "",
+                "address3": null,
+                "city": "Marietta",
+                "zip_code": "30067",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "2642 Windy Hill Rd",
+                    "Marietta, GA 30067"
+                ]
+            },
+            "phone": "+17709527417",
+            "display_phone": "(770) 952-7417",
+            "distance": 5764.604801966989
+        },
+        {
+            "id": "9gHgDigNBW7-_YVeUiYHYg",
+            "alias": "waffle-house-marietta-44",
+            "name": "Waffle House",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/SRdzG7F7P22q30IIKMswSw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-44?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.9346756,
+                "longitude": -84.5955732
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "650 Whitlock Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30064",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "650 Whitlock Ave",
+                    "Marietta, GA 30064"
+                ]
+            },
+            "phone": "+16783547741",
+            "display_phone": "(678) 354-7741",
+            "distance": 5825.344621556702
+        },
+        {
+            "id": "quRgJkAFP00AzkoZ9v4d5A",
+            "alias": "waffle-house-marietta-50",
+            "name": "Waffle House",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/AFD0Ygq0Nc7n4fAEjSI-5Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-50?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 40,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.924406,
+                "longitude": -84.469985
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2805 Delk Rd",
+                "address2": "",
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30067",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "2805 Delk Rd",
+                    "Marietta, GA 30067"
+                ]
+            },
+            "phone": "+17709339349",
+            "display_phone": "(770) 933-9349",
+            "distance": 6006.437721427961
+        },
+        {
+            "id": "KkCZ2ycB-mrs0J8KN9FayQ",
+            "alias": "waffle-house-marietta-42",
+            "name": "Waffle House",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zsW63wOMHW9XXebbqjrMMQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-42?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 33.974755,
+                "longitude": -84.5440933
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "920 Cobb Pkwy",
+                "address2": null,
+                "address3": null,
+                "city": "Marietta",
+                "zip_code": "30060",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "920 Cobb Pkwy",
+                    "Marietta, GA 30060"
+                ]
+            },
+            "phone": "+17704290043",
+            "display_phone": "(770) 429-0043",
+            "distance": 6123.245184663589
+        },
+        {
+            "id": "uBq7d2B9qqJoDXDi2gMp4g",
+            "alias": "waffle-house-marietta-56",
+            "name": "Waffle House",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Sq32Sa0cWJU-jcE8wJtqsQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-marietta-56?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.9662904831587,
+                "longitude": -84.4927618084585
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "550 N Greenbriar Pkwy",
+                "address2": "",
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30062",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "550 N Greenbriar Pkwy",
+                    "Marietta, GA 30062"
+                ]
+            },
+            "phone": "+17709774516",
+            "display_phone": "(770) 977-4516",
+            "distance": 6429.872656015489
+        },
+        {
+            "id": "yMkLJFMaDQehdpegV64lAQ",
+            "alias": "waffle-house-atlanta-108",
+            "name": "Waffle House",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/pahBAraxfIwL9p2ixHd0CA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/waffle-house-atlanta-108?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 53,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.8851088,
+                "longitude": -84.4717382
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2758 Cobb Pkwy SE",
+                "address2": "",
+                "address3": "",
+                "city": "Atlanta",
+                "zip_code": "30339",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "2758 Cobb Pkwy SE",
+                    "Atlanta, GA 30339"
+                ]
+            },
+            "phone": "+17709520202",
+            "display_phone": "(770) 952-0202",
+            "distance": 7014.783992280927
+        },
+        {
+            "id": "VPHHN4tSCJSJg2n6iaslfw",
+            "alias": "marietta-diner-marietta-2",
+            "name": "Marietta Diner",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/VPew2NbMmVtnIgIFET1iLw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/marietta-diner-marietta-2?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 1549,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.94474,
+                "longitude": -84.51804
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "306 Cobb Pkwy S",
+                "address2": null,
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30060",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "306 Cobb Pkwy S",
+                    "Marietta, GA 30060"
+                ]
+            },
+            "phone": "+17704239390",
+            "display_phone": "(770) 423-9390",
+            "distance": 3146.863628323857
+        },
+        {
+            "id": "cLTRG11Euwj6Z_LSLyPl2w",
+            "alias": "the-red-eyed-mule-marietta",
+            "name": "The Red Eyed Mule",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/eKqOXXGemMM6Qei52JOvFg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-red-eyed-mule-marietta?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 599,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.94293,
+                "longitude": -84.54018
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "430 S Marietta Pkwy SE",
+                "address2": "",
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30060",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "430 S Marietta Pkwy SE",
+                    "Marietta, GA 30060"
+                ]
+            },
+            "phone": "+16788094546",
+            "display_phone": "(678) 809-4546",
+            "distance": 2562.9546476007763
+        },
+        {
+            "id": "MRkQaXUrnAegDVnuKop3sw",
+            "alias": "the-marietta-local-marietta",
+            "name": "The Marietta Local",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/H3Cg2XYewpT6nY9hnOljYg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-marietta-local-marietta?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 529,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.9520084,
+                "longitude": -84.5488322
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "148 Roswell St NE",
+                "address2": "",
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30060",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "148 Roswell St NE",
+                    "Marietta, GA 30060"
+                ]
+            },
+            "phone": "+17707942299",
+            "display_phone": "(770) 794-2299",
+            "distance": 3761.6192265470386
+        },
+        {
+            "id": "a4d0riVmbF7LCoIVP2pA0g",
+            "alias": "crooked-tree-cafe-marietta-2",
+            "name": "Crooked Tree Cafe",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/H7V4EZjMxnOq_lB-Vtts6w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/crooked-tree-cafe-marietta-2?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 341,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 33.97335,
+                "longitude": -84.54318
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "915 Cobb Pkwy N",
+                "address2": null,
+                "address3": "",
+                "city": "Marietta",
+                "zip_code": "30062",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "915 Cobb Pkwy N",
+                    "Marietta, GA 30062"
+                ]
+            },
+            "phone": "+17703339119",
+            "display_phone": "(770) 333-9119",
+            "distance": 5958.977456041846
+        },
+        {
+            "id": "eqFA5BJ5NDjZ4TaUXJazfg",
+            "alias": "canoe-atlanta-2",
+            "name": "Canoe",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/BfWaGiwQSZugyo5pR3_ikA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/canoe-atlanta-2?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 1739,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.859863,
+                "longitude": -84.455464
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "4199 Paces Ferry Rd SE",
+                "address2": "",
+                "address3": "",
+                "city": "Atlanta",
+                "zip_code": "30339",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "4199 Paces Ferry Rd SE",
+                    "Atlanta, GA 30339"
+                ]
+            },
+            "phone": "+17704322663",
+            "display_phone": "(770) 432-2663",
+            "distance": 9939.075901768278
+        },
+        {
+            "id": "cJMbsMsuGNEcd7zJeJxJcA",
+            "alias": "first-watch-smyrna-5",
+            "name": "First Watch",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/38GzDrmm6EIgQBbNONowTw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/first-watch-smyrna-5?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 305,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.8496903543599,
+                "longitude": -84.4928953037204
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1675 Cumberland Pkwy SE",
+                "address2": "Ste 417",
+                "address3": "",
+                "city": "Smyrna",
+                "zip_code": "30080",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "1675 Cumberland Pkwy SE",
+                    "Ste 417",
+                    "Smyrna, GA 30080"
+                ]
+            },
+            "phone": "+16782130312",
+            "display_phone": "(678) 213-0312",
+            "distance": 8748.086924350224
+        },
+        {
+            "id": "znLWExRtWHtmGLk6YLVvmw",
+            "alias": "south-city-kitchen-vinings-smyrna-2",
+            "name": "South City Kitchen Vinings",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rISOmoinM4eAO9iNpjsMNQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/south-city-kitchen-vinings-smyrna-2?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 523,
+            "categories": [
+                {
+                    "alias": "southern",
+                    "title": "Southern"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 33.84933,
+                "longitude": -84.4923305511475
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1675 Cumberland Pkwy SE",
+                "address2": "Ste 401",
+                "address3": "",
+                "city": "Smyrna",
+                "zip_code": "30080",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "1675 Cumberland Pkwy SE",
+                    "Ste 401",
+                    "Smyrna, GA 30080"
+                ]
+            },
+            "phone": "+17704350700",
+            "display_phone": "(770) 435-0700",
+            "distance": 8807.158749814358
+        },
+        {
+            "id": "-P34IkgJiDcU3SGhKnqZ0w",
+            "alias": "another-broken-egg-cafe-vinings",
+            "name": "Another Broken Egg Cafe",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bhs4rdn0nXuabhrUGa5UvQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/another-broken-egg-cafe-vinings?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 551,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 33.8654181246865,
+                "longitude": -84.4662990492645
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4300 Paces Ferry Rd SE",
+                "address2": "",
+                "address3": "",
+                "city": "Vinings",
+                "zip_code": "30339",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "4300 Paces Ferry Rd SE",
+                    "Vinings, GA 30339"
+                ]
+            },
+            "phone": "+17703840012",
+            "display_phone": "(770) 384-0012",
+            "distance": 8786.896456379818
+        },
+        {
+            "id": "7gMnANdWnwlnuaIR-xFj3w",
+            "alias": "kens-corner-grill-smyrna",
+            "name": "Ken's Corner Grill",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3cJuZqDMpIT6_Ete-DctGA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kens-corner-grill-smyrna?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+            "review_count": 66,
+            "categories": [
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 33.8817732546261,
+                "longitude": -84.5138387073403
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2934 Atlanta Rd",
+                "address2": "",
+                "address3": "",
+                "city": "Smyrna",
+                "zip_code": "30080",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "2934 Atlanta Rd",
+                    "Smyrna, GA 30080"
+                ]
+            },
+            "phone": "+17704363251",
+            "display_phone": "(770) 436-3251",
+            "distance": 4695.659453355217
+        }
+    ],
+    "total": 146,
+    "region": {
+        "center": {
+            "longitude": -84.5348863,
+            "latitude": 33.9202195
+        }
+    }
+}

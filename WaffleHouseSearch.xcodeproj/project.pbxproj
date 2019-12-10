@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0591E3239F26170075E8F3 /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0591E2239F26170075E8F3 /* SearchParser.swift */; };
+		5E0591E5239F26920075E8F3 /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0591E4239F26920075E8F3 /* SearchData.swift */; };
+		5E0591E7239F32610075E8F3 /* waffleHouseSearch.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E0591E6239F32610075E8F3 /* waffleHouseSearch.json */; };
+		5E0591E9239F46EB0075E8F3 /* YelpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0591E8239F46EB0075E8F3 /* YelpAPI.swift */; };
 		5E11A83A239F0BDE0046244A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A839239F0BDE0046244A /* AppDelegate.swift */; };
 		5E11A83C239F0BDE0046244A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A83B239F0BDE0046244A /* SceneDelegate.swift */; };
 		5E11A83E239F0BDE0046244A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A83D239F0BDE0046244A /* ViewController.swift */; };
@@ -16,6 +20,11 @@
 		5E11A849239F0BE10046244A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E11A847239F0BE10046244A /* LaunchScreen.storyboard */; };
 		5E11A854239F0BE20046244A /* WaffleHouseSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A853239F0BE20046244A /* WaffleHouseSearchTests.swift */; };
 		5E11A85F239F0BE20046244A /* WaffleHouseSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A85E239F0BE20046244A /* WaffleHouseSearchUITests.swift */; };
+		5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86C239F1A4D0046244A /* YelpURLs.swift */; };
+		5E11A86F239F1D7A0046244A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86E239F1D7A0046244A /* NetworkController.swift */; };
+		6648AA76ACC62FB1B879E3D0 /* Pods_WaffleHouseSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F3AC5A63BC86A0F28B7422 /* Pods_WaffleHouseSearch.framework */; };
+		784621A1BB510575EB7AA610 /* Pods_WaffleHouseSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C826EA9848E88E27B3741 /* Pods_WaffleHouseSearchTests.framework */; };
+		BC1E3A8DDB7C0F6C1686C5EF /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E52234FD7DBFF25FB41BAB8 /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5C8854D2B73E904A935B1C /* Pods-WaffleHouseSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearchTests.release.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearchTests/Pods-WaffleHouseSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D3AC569E0FFC9440C445795 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E0591E2239F26170075E8F3 /* SearchParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParser.swift; sourceTree = "<group>"; };
+		5E0591E4239F26920075E8F3 /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
+		5E0591E6239F32610075E8F3 /* waffleHouseSearch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waffleHouseSearch.json; path = testData/waffleHouseSearch.json; sourceTree = SOURCE_ROOT; };
+		5E0591E8239F46EB0075E8F3 /* YelpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPI.swift; sourceTree = "<group>"; };
 		5E11A836239F0BDE0046244A /* WaffleHouseSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaffleHouseSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E11A839239F0BDE0046244A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E11A83B239F0BDE0046244A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +66,15 @@
 		5E11A85A239F0BE20046244A /* WaffleHouseSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaffleHouseSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E11A85E239F0BE20046244A /* WaffleHouseSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaffleHouseSearchUITests.swift; sourceTree = "<group>"; };
 		5E11A860239F0BE20046244A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E11A86C239F1A4D0046244A /* YelpURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpURLs.swift; sourceTree = "<group>"; };
+		5E11A86E239F1D7A0046244A /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		5E52234FD7DBFF25FB41BAB8 /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1DED1F7DB00F45BAA9802D /* Pods-WaffleHouseSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearch.debug.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		744AB6E38B26FA4588B9B3D3 /* Pods-WaffleHouseSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearch.release.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch.release.xcconfig"; sourceTree = "<group>"; };
+		799C826EA9848E88E27B3741 /* Pods_WaffleHouseSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaffleHouseSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2035D7506FF0C53C515CDD /* Pods-WaffleHouseSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearchTests/Pods-WaffleHouseSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F3AC5A63BC86A0F28B7422 /* Pods_WaffleHouseSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaffleHouseSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD99283A476F4FDC2035DD12 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearch-WaffleHouseSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6648AA76ACC62FB1B879E3D0 /* Pods_WaffleHouseSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784621A1BB510575EB7AA610 /* Pods_WaffleHouseSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1E3A8DDB7C0F6C1686C5EF /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		330C9F78EAFBE56C16D08E0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A1DED1F7DB00F45BAA9802D /* Pods-WaffleHouseSearch.debug.xcconfig */,
+				744AB6E38B26FA4588B9B3D3 /* Pods-WaffleHouseSearch.release.xcconfig */,
+				FD99283A476F4FDC2035DD12 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.debug.xcconfig */,
+				2D3AC569E0FFC9440C445795 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig */,
+				7C2035D7506FF0C53C515CDD /* Pods-WaffleHouseSearchTests.debug.xcconfig */,
+				0B5C8854D2B73E904A935B1C /* Pods-WaffleHouseSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5E11A82D239F0BDD0046244A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				5E11A852239F0BE20046244A /* WaffleHouseSearchTests */,
 				5E11A85D239F0BE20046244A /* WaffleHouseSearchUITests */,
 				5E11A837239F0BDE0046244A /* Products */,
+				330C9F78EAFBE56C16D08E0F /* Pods */,
+				FE6F36092ECF49D190284A09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,9 +146,14 @@
 				5E11A839239F0BDE0046244A /* AppDelegate.swift */,
 				5E11A83B239F0BDE0046244A /* SceneDelegate.swift */,
 				5E11A83D239F0BDE0046244A /* ViewController.swift */,
-				5E11A83F239F0BDE0046244A /* Main.storyboard */,
+				5E0591E2239F26170075E8F3 /* SearchParser.swift */,
+				5E0591E4239F26920075E8F3 /* SearchData.swift */,
+				5E11A86E239F1D7A0046244A /* NetworkController.swift */,
+				5E11A86C239F1A4D0046244A /* YelpURLs.swift */,
+				5E0591E8239F46EB0075E8F3 /* YelpAPI.swift */,
 				5E11A845239F0BE10046244A /* Assets.xcassets */,
 				5E11A847239F0BE10046244A /* LaunchScreen.storyboard */,
+				5E11A83F239F0BDE0046244A /* Main.storyboard */,
 				5E11A84A239F0BE10046244A /* Info.plist */,
 				5E11A842239F0BDE0046244A /* WaffleHouseSearch.xcdatamodeld */,
 			);
@@ -117,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				5E11A853239F0BE20046244A /* WaffleHouseSearchTests.swift */,
+				5E0591E6239F32610075E8F3 /* waffleHouseSearch.json */,
 				5E11A855239F0BE20046244A /* Info.plist */,
 			);
 			path = WaffleHouseSearchTests;
@@ -131,6 +179,16 @@
 			path = WaffleHouseSearchUITests;
 			sourceTree = "<group>";
 		};
+		FE6F36092ECF49D190284A09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F3AC5A63BC86A0F28B7422 /* Pods_WaffleHouseSearch.framework */,
+				5E52234FD7DBFF25FB41BAB8 /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework */,
+				799C826EA9848E88E27B3741 /* Pods_WaffleHouseSearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E11A863239F0BE20046244A /* Build configuration list for PBXNativeTarget "WaffleHouseSearch" */;
 			buildPhases = (
+				5A37ABFC280A98FFE88F1820 /* [CP] Check Pods Manifest.lock */,
 				5E11A832239F0BDE0046244A /* Sources */,
 				5E11A833239F0BDE0046244A /* Frameworks */,
 				5E11A834239F0BDE0046244A /* Resources */,
+				B357017558089A498D42FA13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E11A866239F0BE20046244A /* Build configuration list for PBXNativeTarget "WaffleHouseSearchTests" */;
 			buildPhases = (
+				2CC6837A441ECF1309F39A61 /* [CP] Check Pods Manifest.lock */,
 				5E11A84B239F0BE20046244A /* Sources */,
 				5E11A84C239F0BE20046244A /* Frameworks */,
 				5E11A84D239F0BE20046244A /* Resources */,
@@ -173,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E11A869239F0BE20046244A /* Build configuration list for PBXNativeTarget "WaffleHouseSearchUITests" */;
 			buildPhases = (
+				592405BC4F7265EEE8A87A73 /* [CP] Check Pods Manifest.lock */,
 				5E11A856239F0BE20046244A /* Sources */,
 				5E11A857239F0BE20046244A /* Frameworks */,
 				5E11A858239F0BE20046244A /* Resources */,
+				97D0CCC1DA84258E1CD6066D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0591E7239F32610075E8F3 /* waffleHouseSearch.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +321,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CC6837A441ECF1309F39A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaffleHouseSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		592405BC4F7265EEE8A87A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaffleHouseSearch-WaffleHouseSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A37ABFC280A98FFE88F1820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaffleHouseSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D0CCC1DA84258E1CD6066D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B357017558089A498D42FA13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E11A832239F0BDE0046244A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +431,12 @@
 			files = (
 				5E11A83E239F0BDE0046244A /* ViewController.swift in Sources */,
 				5E11A844239F0BDE0046244A /* WaffleHouseSearch.xcdatamodeld in Sources */,
+				5E11A86F239F1D7A0046244A /* NetworkController.swift in Sources */,
+				5E0591E9239F46EB0075E8F3 /* YelpAPI.swift in Sources */,
+				5E0591E5239F26920075E8F3 /* SearchData.swift in Sources */,
+				5E0591E3239F26170075E8F3 /* SearchParser.swift in Sources */,
 				5E11A83A239F0BDE0046244A /* AppDelegate.swift in Sources */,
+				5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */,
 				5E11A83C239F0BDE0046244A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +608,7 @@
 		};
 		5E11A864239F0BE20046244A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1DED1F7DB00F45BAA9802D /* Pods-WaffleHouseSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +626,7 @@
 		};
 		5E11A865239F0BE20046244A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744AB6E38B26FA4588B9B3D3 /* Pods-WaffleHouseSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +644,7 @@
 		};
 		5E11A867239F0BE20046244A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2035D7506FF0C53C515CDD /* Pods-WaffleHouseSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +666,7 @@
 		};
 		5E11A868239F0BE20046244A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5C8854D2B73E904A935B1C /* Pods-WaffleHouseSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +688,7 @@
 		};
 		5E11A86A239F0BE20046244A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD99283A476F4FDC2035DD12 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +708,7 @@
 		};
 		5E11A86B239F0BE20046244A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3AC569E0FFC9440C445795 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
