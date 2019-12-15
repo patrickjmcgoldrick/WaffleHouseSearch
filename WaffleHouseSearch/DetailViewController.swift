@@ -22,6 +22,7 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var lblFoodType: UILabel!
     
+    @IBOutlet weak var lblIsClosed: UILabel!
     
     var business: Business?
     
@@ -67,6 +68,17 @@ class DetailViewController: UIViewController {
                 }
             }
             lblFoodType.text = categoryString
+        }
+        
+        // is Close or Open
+        if let isClosed = business?.is_closed {
+            if isClosed == true {
+                lblIsClosed.text = "Closed"
+                lblIsClosed.textColor = .systemRed
+            } else {
+                lblIsClosed.text = "Open"
+                lblIsClosed.textColor = .systemGreen
+            }
         }
     }
     

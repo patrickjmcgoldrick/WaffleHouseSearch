@@ -105,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="1020" y="9"/>
         </scene>
-        <!--Yelp Detail View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="o1i-7J-fVk">
             <objects>
-                <viewController id="TNz-vC-nyO" customClass="YelpDetailViewController" customModule="WaffleHouseSearch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TNz-vC-nyO" customClass="DetailViewController" customModule="WaffleHouseSearch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n0d-My-Hof">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,6 +188,17 @@
                                 <rect key="frame" x="376.5" y="408" width="17.5" height="20"/>
                                 <color key="tintColor" red="1" green="0.19320292350000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhu-ZI-nfY">
+                                <rect key="frame" x="20" y="507" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E0n-OO-BsV" customClass="RatingView" customModule="WaffleHouseSearch" customModuleProvider="target">
+                                <rect key="frame" x="60" y="614" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -209,12 +220,14 @@
                             <constraint firstItem="bnd-oJ-ilY" firstAttribute="top" secondItem="kDE-Wx-4cP" secondAttribute="bottom" constant="8" id="NED-7w-aHE"/>
                             <constraint firstItem="51p-r4-FaL" firstAttribute="top" secondItem="O2k-QN-2Vt" secondAttribute="top" id="Rqf-xW-nGe"/>
                             <constraint firstItem="PqG-Qx-IKH" firstAttribute="top" secondItem="kDE-Wx-4cP" secondAttribute="bottom" constant="8" id="Srz-wx-yrU"/>
+                            <constraint firstItem="Dhu-ZI-nfY" firstAttribute="top" secondItem="wY0-lS-PGW" secondAttribute="bottom" constant="8" id="Y7a-9n-Qgn"/>
                             <constraint firstItem="Sof-1n-eBt" firstAttribute="leading" secondItem="8mH-Yn-bqV" secondAttribute="trailing" constant="8" id="cdn-m2-NGq"/>
                             <constraint firstItem="bnd-oJ-ilY" firstAttribute="leading" secondItem="O2k-QN-2Vt" secondAttribute="leading" constant="20" id="dtx-66-QVo"/>
                             <constraint firstItem="8mH-Yn-bqV" firstAttribute="top" secondItem="kDE-Wx-4cP" secondAttribute="bottom" constant="8" id="eVu-ae-MfU"/>
                             <constraint firstItem="VUU-hT-bEG" firstAttribute="top" secondItem="kDE-Wx-4cP" secondAttribute="bottom" constant="8" id="f0p-Oj-jek"/>
                             <constraint firstItem="kDE-Wx-4cP" firstAttribute="top" secondItem="51p-r4-FaL" secondAttribute="bottom" constant="8" id="fAM-k5-B5e"/>
                             <constraint firstItem="kDE-Wx-4cP" firstAttribute="leading" secondItem="O2k-QN-2Vt" secondAttribute="leading" constant="20" id="uM6-IG-RPe"/>
+                            <constraint firstItem="Dhu-ZI-nfY" firstAttribute="leading" secondItem="O2k-QN-2Vt" secondAttribute="leading" constant="20" id="uUu-iu-Oh6"/>
                             <constraint firstItem="bHe-BG-ulO" firstAttribute="top" secondItem="kDE-Wx-4cP" secondAttribute="bottom" constant="8" id="yqc-8v-5xN"/>
                             <constraint firstItem="PqG-Qx-IKH" firstAttribute="leading" secondItem="bHe-BG-ulO" secondAttribute="trailing" constant="4" id="zsC-IL-bOR"/>
                         </constraints>
@@ -224,6 +237,7 @@
                     <connections>
                         <outlet property="imageView" destination="51p-r4-FaL" id="ld7-ZW-RwM"/>
                         <outlet property="lblFoodType" destination="jYB-Wm-5VY" id="9GM-5I-6B0"/>
+                        <outlet property="lblIsClosed" destination="Dhu-ZI-nfY" id="0e3-21-cfF"/>
                         <outlet property="lblName" destination="kDE-Wx-4cP" id="mhl-Vx-3D9"/>
                         <outlet property="lblNotPrice" destination="sn7-tp-4t6" id="eqn-Sv-8VF"/>
                         <outlet property="lblPrice" destination="wY0-lS-PGW" id="b4E-Gc-xlg"/>

@@ -80,7 +80,7 @@ class ViewController: UIViewController {
         
         if segue.identifier == "mapToDetailSegue" {
         
-            guard let destination = segue.destination as? YelpDetailViewController
+            guard let destination = segue.destination as? DetailViewController
                 else { return }
             
             destination.business = selectedBusiness

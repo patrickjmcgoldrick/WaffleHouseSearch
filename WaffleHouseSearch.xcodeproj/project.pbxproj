@@ -22,7 +22,15 @@
 		5E11A85F239F0BE20046244A /* WaffleHouseSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A85E239F0BE20046244A /* WaffleHouseSearchUITests.swift */; };
 		5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86C239F1A4D0046244A /* YelpURLs.swift */; };
 		5E11A86F239F1D7A0046244A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86E239F1D7A0046244A /* NetworkController.swift */; };
-		5E50C3B323A610D700C4F339 /* YelpDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E50C3B223A610D700C4F339 /* YelpDetailViewController.swift */; };
+		5E3C7D1523A6A76800F3C024 /* RatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1423A6A76800F3C024 /* RatingView.xib */; };
+		5E3C7D1723A6BC4300F3C024 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1623A6BC4300F3C024 /* RatingView.swift */; };
+		5E3C7D1923A6D34A00F3C024 /* chick-fil-a_onSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1823A6D34A00F3C024 /* chick-fil-a_onSunday.json */; };
+		5E3C7D1D23A6DA8600F3C024 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1C23A6DA8600F3C024 /* DetailData.swift */; };
+		5E3C7D1F23A6DDED00F3C024 /* chick-fil-a_Detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1E23A6DDED00F3C024 /* chick-fil-a_Detail.json */; };
+		5E3C7D2123A6DED200F3C024 /* DetailParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2023A6DED200F3C024 /* DetailParser.swift */; };
+		5E3C7D2323A6E00E00F3C024 /* DetailParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2223A6E00E00F3C024 /* DetailParserTest.swift */; };
+		5E3C7D2523A6E4F900F3C024 /* waffleHouse_Detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2423A6E4F900F3C024 /* waffleHouse_Detail.json */; };
+		5E50C3B323A610D700C4F339 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E50C3B223A610D700C4F339 /* DetailViewController.swift */; };
 		5E50C3B723A6265100C4F339 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E50C3B623A6265100C4F339 /* ImageLoader.swift */; };
 		5E54442123A46983005A2113 /* YelpSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54442023A46983005A2113 /* YelpSearchViewController.swift */; };
 		5ECECB0E23A4993100B2E486 /* YelpSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */; };
@@ -75,7 +83,15 @@
 		5E11A860239F0BE20046244A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E11A86C239F1A4D0046244A /* YelpURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpURLs.swift; sourceTree = "<group>"; };
 		5E11A86E239F1D7A0046244A /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
-		5E50C3B223A610D700C4F339 /* YelpDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpDetailViewController.swift; sourceTree = "<group>"; };
+		5E3C7D1423A6A76800F3C024 /* RatingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingView.xib; sourceTree = "<group>"; };
+		5E3C7D1623A6BC4300F3C024 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		5E3C7D1823A6D34A00F3C024 /* chick-fil-a_onSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "chick-fil-a_onSunday.json"; path = "testData/chick-fil-a_onSunday.json"; sourceTree = SOURCE_ROOT; };
+		5E3C7D1C23A6DA8600F3C024 /* DetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
+		5E3C7D1E23A6DDED00F3C024 /* chick-fil-a_Detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "chick-fil-a_Detail.json"; path = "testData/chick-fil-a_Detail.json"; sourceTree = SOURCE_ROOT; };
+		5E3C7D2023A6DED200F3C024 /* DetailParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailParser.swift; sourceTree = "<group>"; };
+		5E3C7D2223A6E00E00F3C024 /* DetailParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailParserTest.swift; sourceTree = "<group>"; };
+		5E3C7D2423A6E4F900F3C024 /* waffleHouse_Detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waffleHouse_Detail.json; path = testData/waffleHouse_Detail.json; sourceTree = SOURCE_ROOT; };
+		5E50C3B223A610D700C4F339 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5E50C3B623A6265100C4F339 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		5E52234FD7DBFF25FB41BAB8 /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E54442023A46983005A2113 /* YelpSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpSearchViewController.swift; sourceTree = "<group>"; };
@@ -161,9 +177,13 @@
 				5E50C3B623A6265100C4F339 /* ImageLoader.swift */,
 				5E11A83B239F0BDE0046244A /* SceneDelegate.swift */,
 				5E11A83D239F0BDE0046244A /* ViewController.swift */,
-				5E50C3B223A610D700C4F339 /* YelpDetailViewController.swift */,
+				5E50C3B223A610D700C4F339 /* DetailViewController.swift */,
+				5E3C7D2023A6DED200F3C024 /* DetailParser.swift */,
+				5E3C7D1C23A6DA8600F3C024 /* DetailData.swift */,
 				5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */,
 				5E54442023A46983005A2113 /* YelpSearchViewController.swift */,
+				5E3C7D1423A6A76800F3C024 /* RatingView.xib */,
+				5E3C7D1623A6BC4300F3C024 /* RatingView.swift */,
 				5ECECB0F23A5349800B2E486 /* ParallaxViewController.swift */,
 				5ECECB1123A57DF000B2E486 /* ParallaxVerticalViewController.swift */,
 				5ECECB1323A5802000B2E486 /* ImageTableViewCell.swift */,
@@ -185,7 +205,11 @@
 			isa = PBXGroup;
 			children = (
 				5E11A853239F0BE20046244A /* WaffleHouseSearchTests.swift */,
+				5E3C7D1823A6D34A00F3C024 /* chick-fil-a_onSunday.json */,
 				5E0591E6239F32610075E8F3 /* waffleHouseSearch.json */,
+				5E3C7D2223A6E00E00F3C024 /* DetailParserTest.swift */,
+				5E3C7D1E23A6DDED00F3C024 /* chick-fil-a_Detail.json */,
+				5E3C7D2423A6E4F900F3C024 /* waffleHouse_Detail.json */,
 				5E11A855239F0BE20046244A /* Info.plist */,
 			);
 			path = WaffleHouseSearchTests;
@@ -322,6 +346,7 @@
 				5E11A849239F0BE10046244A /* LaunchScreen.storyboard in Resources */,
 				5E11A846239F0BE10046244A /* Assets.xcassets in Resources */,
 				5E11A841239F0BDE0046244A /* Main.storyboard in Resources */,
+				5E3C7D1523A6A76800F3C024 /* RatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +354,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3C7D1F23A6DDED00F3C024 /* chick-fil-a_Detail.json in Resources */,
 				5E0591E7239F32610075E8F3 /* waffleHouseSearch.json in Resources */,
+				5E3C7D2523A6E4F900F3C024 /* waffleHouse_Detail.json in Resources */,
+				5E3C7D1923A6D34A00F3C024 /* chick-fil-a_onSunday.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +489,10 @@
 				5ECECB1423A5802000B2E486 /* ImageTableViewCell.swift in Sources */,
 				5E0591E3239F26170075E8F3 /* SearchParser.swift in Sources */,
 				5ECECB1023A5349800B2E486 /* ParallaxViewController.swift in Sources */,
-				5E50C3B323A610D700C4F339 /* YelpDetailViewController.swift in Sources */,
+				5E3C7D1723A6BC4300F3C024 /* RatingView.swift in Sources */,
+				5E3C7D1D23A6DA8600F3C024 /* DetailData.swift in Sources */,
+				5E3C7D2123A6DED200F3C024 /* DetailParser.swift in Sources */,
+				5E50C3B323A610D700C4F339 /* DetailViewController.swift in Sources */,
 				5E11A83A239F0BDE0046244A /* AppDelegate.swift in Sources */,
 				5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */,
 				5E54442123A46983005A2113 /* YelpSearchViewController.swift in Sources */,
@@ -474,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E11A854239F0BE20046244A /* WaffleHouseSearchTests.swift in Sources */,
+				5E3C7D2323A6E00E00F3C024 /* DetailParserTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
