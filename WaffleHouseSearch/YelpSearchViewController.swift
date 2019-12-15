@@ -48,20 +48,10 @@ extension YelpSearchViewController: UISearchBarDelegate {
 
             searchYelp(searchTerm: searchText)
         }
-
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         
-        /*
-        guard let searchTerm = searchBar.text else { return }
-        
-        if searchTerm.count < 2
-            && searchTerm.count > 0 {
-            
-            searchYelp(searchTerm: searchTerm)
-        }
-        */
         view.endEditing(true)
         
         performSegue(withIdentifier: "searchToMapSegue", sender: self)
@@ -82,8 +72,6 @@ extension YelpSearchViewController: UISearchBarDelegate {
             }
         }
     }
-    
-    
 }
 
 // MARK: Table DataSource
@@ -97,14 +85,11 @@ extension YelpSearchViewController: UITableViewDataSource {
         
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "SearchCell")
         
-        cell.textLabel?.text = businessesFound[indexPath.row].name
-        let distance = Measurement(value: businessesFound[indexPath.row].distance ?? 0, unit: UnitLength.meters)
-        let miles = distance.converted(to: .miles)
-        let formatter = MeasurementFormatter()
-        formatter.unitOptions = .providedUnit
-        formatter.numberFormatter.maximumFractionDigits = 1
-        formatter.numberFormatter.minimumFractionDigits = 1
-        cell.detailTextLabel?.text = formatter.string(from: miles)
+        let business = businessesFound[indexPath.row]
+        cell.textLabel?.text = business.name
+        if let distance = business.distance {
+            cell.detailTextLabel?.text = business.toMiles(meters: distance)
+        }
         
         return cell
     }
