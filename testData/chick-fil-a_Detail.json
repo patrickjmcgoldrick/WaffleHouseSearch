@@ -1,0 +1,82 @@
+{
+    "id": "IR_NMYMfsHGLZqo2innKZA",
+    "alias": "chick-fil-a-marietta-14",
+    "name": "Chick-fil-A",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WQYHcCJEJWjZGLl1utInwQ/o.jpg",
+    "is_claimed": true,
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/chick-fil-a-marietta-14?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+    "phone": "",
+    "display_phone": "",
+    "review_count": 3,
+    "categories": [
+        {
+            "alias": "hotdogs",
+            "title": "Fast Food"
+        }
+    ],
+    "rating": 1.5,
+    "location": {
+        "address1": "1100 S Marietta Pkwy SE",
+        "address2": null,
+        "address3": null,
+        "city": "Marietta",
+        "zip_code": "30060",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+            "1100 S Marietta Pkwy SE",
+            "Marietta, GA 30060"
+        ],
+        "cross_streets": ""
+    },
+    "coordinates": {
+        "latitude": 33.9418078,
+        "longitude": -84.5217345
+    },
+    "photos": [
+        "https://s3-media2.fl.yelpcdn.com/bphoto/WQYHcCJEJWjZGLl1utInwQ/o.jpg",
+        "https://s3-media2.fl.yelpcdn.com/bphoto/GmsYZDs61m7J4N6rPxJVhQ/o.jpg",
+        "https://s3-media1.fl.yelpcdn.com/bphoto/idHwfO3xtXvLk0peTOyZXg/o.jpg"
+    ],
+    "price": "$",
+    "hours": [
+        {
+            "open": [
+                {
+                    "is_overnight": false,
+                    "start": "0630",
+                    "end": "2000",
+                    "day": 0
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0630",
+                    "end": "2000",
+                    "day": 1
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0630",
+                    "end": "2000",
+                    "day": 2
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0630",
+                    "end": "2000",
+                    "day": 3
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0630",
+                    "end": "1600",
+                    "day": 4
+                }
+            ],
+            "hours_type": "REGULAR",
+            "is_open_now": false
+        }
+    ],
+    "transactions": []
+}

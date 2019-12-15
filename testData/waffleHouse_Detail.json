@@ -1,0 +1,104 @@
+{
+    "id": "NMYuTjAxXEmCCtmeW_nC8g",
+    "alias": "waffle-house-marietta-54",
+    "name": "Waffle House",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ZNh935p8WZjjuhraVBRxww/o.jpg",
+    "is_claimed": true,
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/waffle-house-marietta-54?adjust_creative=F3ohl0wCKhTlDeO3kisqqw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=F3ohl0wCKhTlDeO3kisqqw",
+    "phone": "+17705908810",
+    "display_phone": "(770) 590-8810",
+    "review_count": 12,
+    "categories": [
+        {
+            "alias": "breakfast_brunch",
+            "title": "Breakfast & Brunch"
+        },
+        {
+            "alias": "tradamerican",
+            "title": "American (Traditional)"
+        },
+        {
+            "alias": "waffles",
+            "title": "Waffles"
+        }
+    ],
+    "rating": 3.0,
+    "location": {
+        "address1": "1398 Austell Rd",
+        "address2": "",
+        "address3": null,
+        "city": "Marietta",
+        "zip_code": "30008",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+            "1398 Austell Rd",
+            "Marietta, GA 30008"
+        ],
+        "cross_streets": ""
+    },
+    "coordinates": {
+        "latitude": 33.9194137,
+        "longitude": -84.548711
+    },
+    "photos": [
+        "https://s3-media1.fl.yelpcdn.com/bphoto/ZNh935p8WZjjuhraVBRxww/o.jpg",
+        "https://s3-media4.fl.yelpcdn.com/bphoto/MXilE2Fn8MJKJdIz0W_3tA/o.jpg",
+        "https://s3-media2.fl.yelpcdn.com/bphoto/2j-b2TyeBsKC9wL2JnVZCg/o.jpg"
+    ],
+    "price": "$",
+    "hours": [
+        {
+            "open": [
+                {
+                    "is_overnight": true,
+                    "start": "0000",
+                    "end": "0000",
+                    "day": 0
+                },
+                {
+                    "is_overnight": true,
+                    "start": "0000",
+                    "end": "0000",
+                    "day": 1
+                },
+                {
+                    "is_overnight": true,
+                    "start": "0000",
+                    "end": "0000",
+                    "day": 2
+                },
+                {
+                    "is_overnight": true,
+                    "start": "0000",
+                    "end": "0000",
+                    "day": 3
+                },
+                {
+                    "is_overnight": true,
+                    "start": "0000",
+                    "end": "0000",
+                    "day": 4
+                },
+                {
+                    "is_overnight": true,
+                    "start": "0000",
+                    "end": "0000",
+                    "day": 5
+                },
+                {
+                    "is_overnight": true,
+                    "start": "0000",
+                    "end": "0000",
+                    "day": 6
+                }
+            ],
+            "hours_type": "REGULAR",
+            "is_open_now": true
+        }
+    ],
+    "transactions": [
+        "delivery"
+    ]
+}

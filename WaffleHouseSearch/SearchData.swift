@@ -12,6 +12,7 @@ struct SearchData: Codable {
 }
 
 struct Business: Codable {
+    var id: String
     var name: String
     var image_url: String?
     var location: Location
@@ -21,6 +22,7 @@ struct Business: Codable {
     var rating: Double
     var review_count: Int
     var price: String?
+    var is_closed: Bool
     var categories: [Category]
     var coordinates: Coordinates
     

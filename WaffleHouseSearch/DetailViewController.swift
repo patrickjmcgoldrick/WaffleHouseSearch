@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YelpDetailViewController: UIViewController {
+class DetailViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
