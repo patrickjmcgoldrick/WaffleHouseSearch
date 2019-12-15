@@ -11,22 +11,18 @@ class SearchParser {
 
     func parse(data: Data, parsed: @escaping (SearchData) -> Void) {
 
-        // background the loading / parsing elements
-        DispatchQueue.global(qos: .background).async {
+        // create decoder
+        let jsonDecoder = JSONDecoder()
+        
+        do {
+            // decode json into structs
+            let searchData = try jsonDecoder.decode(SearchData.self, from: data)
 
-            do {
+            parsed(searchData)
 
-                // create decoder
-                let jsonDecoder = JSONDecoder()
-
-                // decode json into structs
-                let searchData = try jsonDecoder.decode(SearchData.self, from: data)
-
-                parsed(searchData)
-
-            } catch {
-                print("Error Parsing SearchData from JSON: \(error.localizedDescription)")
-            }
+        } catch {
+            print("Error Parsing SearchData from JSON: \(error.localizedDescription)")
         }
+        
     }
 }
