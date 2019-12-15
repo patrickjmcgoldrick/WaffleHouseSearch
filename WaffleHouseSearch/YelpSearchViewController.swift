@@ -12,6 +12,8 @@ class YelpSearchViewController: UIViewController {
 
     @IBOutlet weak var searchView: UISearchBar!
     
+    @IBOutlet weak var tfLocation: UITextField!
+    
     @IBOutlet weak var tableView: UITableView!
     
     var businessesFound = [Business]()
