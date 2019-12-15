@@ -22,6 +22,11 @@
 		5E11A85F239F0BE20046244A /* WaffleHouseSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A85E239F0BE20046244A /* WaffleHouseSearchUITests.swift */; };
 		5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86C239F1A4D0046244A /* YelpURLs.swift */; };
 		5E11A86F239F1D7A0046244A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86E239F1D7A0046244A /* NetworkController.swift */; };
+		5E54442123A46983005A2113 /* YelpSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54442023A46983005A2113 /* YelpSearchViewController.swift */; };
+		5ECECB0E23A4993100B2E486 /* YelpSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */; };
+		5ECECB1023A5349800B2E486 /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB0F23A5349800B2E486 /* ParallaxViewController.swift */; };
+		5ECECB1223A57DF000B2E486 /* ParallaxVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB1123A57DF000B2E486 /* ParallaxVerticalViewController.swift */; };
+		5ECECB1423A5802000B2E486 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB1323A5802000B2E486 /* ImageTableViewCell.swift */; };
 		6648AA76ACC62FB1B879E3D0 /* Pods_WaffleHouseSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F3AC5A63BC86A0F28B7422 /* Pods_WaffleHouseSearch.framework */; };
 		784621A1BB510575EB7AA610 /* Pods_WaffleHouseSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C826EA9848E88E27B3741 /* Pods_WaffleHouseSearchTests.framework */; };
 		BC1E3A8DDB7C0F6C1686C5EF /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E52234FD7DBFF25FB41BAB8 /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework */; };
@@ -69,6 +74,11 @@
 		5E11A86C239F1A4D0046244A /* YelpURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpURLs.swift; sourceTree = "<group>"; };
 		5E11A86E239F1D7A0046244A /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		5E52234FD7DBFF25FB41BAB8 /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E54442023A46983005A2113 /* YelpSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpSearchViewController.swift; sourceTree = "<group>"; };
+		5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpSearcher.swift; sourceTree = "<group>"; };
+		5ECECB0F23A5349800B2E486 /* ParallaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewController.swift; sourceTree = "<group>"; };
+		5ECECB1123A57DF000B2E486 /* ParallaxVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxVerticalViewController.swift; sourceTree = "<group>"; };
+		5ECECB1323A5802000B2E486 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		6A1DED1F7DB00F45BAA9802D /* Pods-WaffleHouseSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearch.debug.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		744AB6E38B26FA4588B9B3D3 /* Pods-WaffleHouseSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearch.release.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch.release.xcconfig"; sourceTree = "<group>"; };
 		799C826EA9848E88E27B3741 /* Pods_WaffleHouseSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaffleHouseSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +156,11 @@
 				5E11A839239F0BDE0046244A /* AppDelegate.swift */,
 				5E11A83B239F0BDE0046244A /* SceneDelegate.swift */,
 				5E11A83D239F0BDE0046244A /* ViewController.swift */,
+				5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */,
+				5E54442023A46983005A2113 /* YelpSearchViewController.swift */,
+				5ECECB0F23A5349800B2E486 /* ParallaxViewController.swift */,
+				5ECECB1123A57DF000B2E486 /* ParallaxVerticalViewController.swift */,
+				5ECECB1323A5802000B2E486 /* ImageTableViewCell.swift */,
 				5E0591E2239F26170075E8F3 /* SearchParser.swift */,
 				5E0591E4239F26920075E8F3 /* SearchData.swift */,
 				5E11A86E239F1D7A0046244A /* NetworkController.swift */,
@@ -430,13 +445,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E11A83E239F0BDE0046244A /* ViewController.swift in Sources */,
+				5ECECB0E23A4993100B2E486 /* YelpSearcher.swift in Sources */,
 				5E11A844239F0BDE0046244A /* WaffleHouseSearch.xcdatamodeld in Sources */,
 				5E11A86F239F1D7A0046244A /* NetworkController.swift in Sources */,
 				5E0591E9239F46EB0075E8F3 /* YelpAPI.swift in Sources */,
+				5ECECB1223A57DF000B2E486 /* ParallaxVerticalViewController.swift in Sources */,
 				5E0591E5239F26920075E8F3 /* SearchData.swift in Sources */,
+				5ECECB1423A5802000B2E486 /* ImageTableViewCell.swift in Sources */,
 				5E0591E3239F26170075E8F3 /* SearchParser.swift in Sources */,
+				5ECECB1023A5349800B2E486 /* ParallaxViewController.swift in Sources */,
 				5E11A83A239F0BDE0046244A /* AppDelegate.swift in Sources */,
 				5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */,
+				5E54442123A46983005A2113 /* YelpSearchViewController.swift in Sources */,
 				5E11A83C239F0BDE0046244A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
