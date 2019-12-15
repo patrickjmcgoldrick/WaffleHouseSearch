@@ -15,11 +15,19 @@ class ViewController: UIViewController {
     
     var searchedCoordinates: Coordinates?
     var businessesFound: [Business]?
+    var selectedBusiness: Business?
+    var markerToBusiness = [GMSMarker: Business]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         guard let coordinates = searchedCoordinates else { return }
+       
+        // make navbar transparent
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.isTranslucent = true
+        navigationController?.view.backgroundColor = .clear
         
         setupGoogleMap(
             latitude: coordinates.latitude,
@@ -30,10 +38,16 @@ class ViewController: UIViewController {
         for business in businesses {
             
             let milesString = business.toMiles(meters: business.distance ?? 0.0)
-            setMarker(title: business.name,
+            let position = CLLocationCoordinate2D(latitude: business.coordinates.latitude, longitude: business.coordinates.longitude)
+            
+            
+            // set marker
+            let marker = setMarker(title: business.name,
                       distance: milesString,
-                      latitude: business.coordinates.latitude,
-                      longitude: business.coordinates.longitude)
+                      position: position)
+            
+            // put business in dictionary
+            markerToBusiness[marker] = business
         }
     }
     
@@ -41,8 +55,7 @@ class ViewController: UIViewController {
     func setupGoogleMap(latitude: Double, longitude: Double) {
         let camera = GMSCameraPosition.camera(withLatitude: latitude, longitude: longitude, zoom: 12.0)
         mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-
-        //mapView?.isTrafficEnabled = true
+        
         mapView?.mapType = .normal
         mapView?.isMyLocationEnabled = true
         mapView?.delegate = self
@@ -50,21 +63,38 @@ class ViewController: UIViewController {
     }
     
     /// Set points of Interest on the Map
-    func setMarker(title: String, distance: String, latitude: Double, longitude: Double) {
+    func setMarker(title: String, distance: String,
+                   position: CLLocationCoordinate2D) -> GMSMarker {
         
         // Create Marker
         let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+        marker.position = position
         marker.title = title
         marker.snippet = distance
         marker.map = mapView
+        
+        return marker
     }
     
-
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "mapToDetailSegue" {
+        
+            guard let destination = segue.destination as? YelpDetailViewController
+                else { return }
+            
+            destination.business = selectedBusiness
+        }
+    }
 }
 
 extension ViewController: GMSMapViewDelegate {
     
-}
+    func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
 
+        selectedBusiness = markerToBusiness[marker]
+        
+        performSegue(withIdentifier: "mapToDetailSegue", sender: self)
+        return true
+    }
+}
