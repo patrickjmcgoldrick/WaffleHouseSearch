@@ -35,6 +35,12 @@ class YelpSearchViewController: UIViewController {
                 destination.businessesFound = businessesFound
                 destination.searchedCoordinates = searchCoordinates
             }
+        } else if segue.identifier == "searchToDetailSegue" {
+            if let destination = segue.destination as? DetailViewController {
+                
+                guard let index = tableView.indexPathForSelectedRow?.row else { return }
+                destination.business = businessesFound[index]
+            }
         }
     }
 }
@@ -114,6 +120,8 @@ extension YelpSearchViewController: UITableViewDataSource {
 extension YelpSearchViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+        
+        performSegue(withIdentifier: "searchToDetailSegue", sender: self)
+        print("index: \(indexPath.row)")
     }
 }
