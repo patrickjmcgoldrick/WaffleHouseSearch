@@ -15,4 +15,8 @@ extension Date {
         let weekDay = myCalendar.component(.weekday, from: self)
         return weekDay
     }
+    
+    func getYelpWeekday() -> Int {
+        return (getWeekday() + 5) % 7
+    }
 }
