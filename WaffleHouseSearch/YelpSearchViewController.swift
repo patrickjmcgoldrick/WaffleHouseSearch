@@ -122,6 +122,5 @@ extension YelpSearchViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         performSegue(withIdentifier: "searchToDetailSegue", sender: self)
-        print("index: \(indexPath.row)")
     }
 }
