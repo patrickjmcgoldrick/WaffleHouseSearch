@@ -44,6 +44,7 @@ struct Coordinates: Codable {
 
 struct Location: Codable {
     var address1: String
+    var display_address: [String]
 }
 
 struct Category: Codable {
