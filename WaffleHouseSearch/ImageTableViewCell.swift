@@ -10,15 +10,23 @@ import UIKit
 
 class ImageTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var parallaxImage: UIImageView!
+
+    @IBOutlet weak var lblTitle: UILabel!
+
+    @IBOutlet weak var parallaxHeightConstraint: NSLayoutConstraint!
+
+    @IBOutlet weak var parallaxTopConstraint: NSLayoutConstraint!
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+
+        parallaxImage.clipsToBounds = true
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func configureCell(title: String, image: UIImage) {
+        parallaxImage.image = image
+        lblTitle.text = title
     }
 
 }
