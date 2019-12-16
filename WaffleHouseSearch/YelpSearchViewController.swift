@@ -104,6 +104,10 @@ extension YelpSearchViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
+        if indexPath.row >= businessesFound.count {
+            return UITableViewCell()
+        }
+
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "SearchCell")
 
         let business = businessesFound[indexPath.row]
