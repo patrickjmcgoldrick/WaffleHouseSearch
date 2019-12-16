@@ -13,9 +13,9 @@ import GoogleMaps
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+
                GMSServices.provideAPIKey("AIzaSyBKvkzNsaicGg9ijvV8fED0zLb-0_nDy9k")
-        
+
         return true
     }
 }

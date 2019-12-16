@@ -13,7 +13,7 @@ class SearchParser {
 
         // create decoder
         let jsonDecoder = JSONDecoder()
-        
+
         do {
             // decode json into structs
             let searchData = try jsonDecoder.decode(SearchData.self, from: data)
@@ -23,6 +23,6 @@ class SearchParser {
         } catch {
             print("Error Parsing SearchData from JSON: \(error.localizedDescription)")
         }
-        
+
     }
 }

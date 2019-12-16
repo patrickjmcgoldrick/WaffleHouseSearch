@@ -9,38 +9,38 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    
-    @IBOutlet weak var imageView: UIImageView!
-    
-    @IBOutlet weak var lblName: UILabel!
-    
-    @IBOutlet weak var lblReviews: UILabel!
-    
-    @IBOutlet weak var lblPrice: UILabel!
-    
-    @IBOutlet weak var lblNotPrice: UILabel!
-    
-    @IBOutlet weak var lblFoodType: UILabel!
-    
-    @IBOutlet weak var lblIsClosed: UILabel!
-    
-    @IBOutlet weak var ratingView: RatingView!
-    
-    @IBOutlet weak var lblHours: UILabel!
-    
-    @IBOutlet weak var lblPhone: UILabel!
-    
-    @IBOutlet weak var lblAddress: UILabel!
-    
+
+    @IBOutlet private weak var imageView: UIImageView!
+
+    @IBOutlet private weak var lblName: UILabel!
+
+    @IBOutlet private weak var lblReviews: UILabel!
+
+    @IBOutlet private weak var lblPrice: UILabel!
+
+    @IBOutlet private weak var lblNotPrice: UILabel!
+
+    @IBOutlet private weak var lblFoodType: UILabel!
+
+    @IBOutlet private weak var lblIsClosed: UILabel!
+
+    @IBOutlet private weak var ratingView: RatingView!
+
+    @IBOutlet private weak var lblHours: UILabel!
+
+    @IBOutlet private weak var lblPhone: UILabel!
+
+    @IBOutlet private weak var lblAddress: UILabel!
+
     var business: Business?
     var details: DetailData?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         transparentNavbar()
         setupBusinessData()
-        
+
         if details == nil {
             // this happens if user skips the map
             //  and goes directly to details
@@ -49,7 +49,7 @@ class DetailViewController: UIViewController {
             setupDetailData()
         }
     }
-    
+
     func setupBusinessData() {
         if let imageURL = business?.image_url {
             let imageLoader = ImageLoader()
@@ -61,7 +61,7 @@ class DetailViewController: UIViewController {
         if let reviews = business?.review_count {
             lblReviews.text = "\(reviews) Reviews"
         }
-        
+
         // set rating value in UI
         if let rating = business?.rating {
             ratingView.rating = rating
@@ -72,12 +72,12 @@ class DetailViewController: UIViewController {
             let notPriceCount = 4 - price.count
             lblPrice.text = price
             var notPrice = ""
-            for index in 0..<notPriceCount {
+            for _ in 0..<notPriceCount {
                 notPrice += "$"
             }
             lblNotPrice.text = notPrice
         }
-        
+
         // Categories
         if let categories = business?.categories {
             var categoryString = ""
@@ -90,14 +90,14 @@ class DetailViewController: UIViewController {
             }
             lblFoodType.text = categoryString
         }
-        
+
         // phone info
         if let phone = business?.display_phone {
             lblPhone.text = phone
         } else {
             lblPhone.text = ""
         }
-        
+
         if let address = business?.location.display_address {
             var addressString = ""
             for line in address {
@@ -106,7 +106,7 @@ class DetailViewController: UIViewController {
             lblAddress.text = addressString
         }
     }
-    
+
     func setupDetailData() {
         // is business open or closed?
          if let isNowOpen = details?.hours[0].is_open_now,
@@ -117,7 +117,7 @@ class DetailViewController: UIViewController {
                  lblIsClosed.textColor = .systemRed
                  lblHours.text = ""
              } else {
-                 
+
                  if isNowOpen {
                      lblIsClosed.text = "Open"
                      lblIsClosed.textColor = .systemGreen
@@ -131,21 +131,21 @@ class DetailViewController: UIViewController {
              }
          }
     }
-    
+
     func loadDetails() {
         if let id = business?.id {
-            
+
             let searcher = YelpSearcher()
             searcher.readDetails(id: id) { (detailData) in
                 self.details = detailData
-                
+
                 DispatchQueue.main.async {
                     self.setupDetailData()
                 }
             }
         }
     }
-    
+
     func transparentNavbar() {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
@@ -154,7 +154,7 @@ class DetailViewController: UIViewController {
         navigationController?.navigationBar.backItem?.backBarButtonItem?.title = "Search"
         navigationController?.navigationBar.backItem?.backBarButtonItem?.tintColor = .white
     }
-    
+
     private func hoursToday(days: [Day]) -> [Day] {
         let yelpWeekday = Date().getYelpWeekday()
         var resultDays = [Day]()
@@ -165,29 +165,29 @@ class DetailViewController: UIViewController {
         }
         return resultDays
     }
-    
+
     private func formatTimeData(start: String, end: String) -> String {
-        
+
         guard let startHour = Int(start.prefix(2)) else { return "" }
         guard let endHour = Int(end.prefix(2)) else { return "" }
         guard let startMinutes = Int(start.suffix(2)) else { return "" }
         guard let endMinutes = Int(end.suffix(2)) else { return "" }
-        
+
         return formatHour(hour: startHour, minutes: startMinutes)
             + " - " + formatHour(hour: endHour, minutes: endMinutes)
     }
-    
+
     private func isPM(hour: Int) -> Bool {
         if hour > 11 {
             return true
         }
         return false
     }
-    
+
     private func formatHour(hour: Int, minutes: Int) -> String {
         var resultString = ""
-        let pm = isPM(hour: hour)
-        if pm {
+
+        if isPM(hour: hour) {
             resultString = "\(hour - 12)"
             if minutes != 0 {
                 resultString += ":" + String(minutes)
@@ -204,7 +204,7 @@ class DetailViewController: UIViewController {
             }
             resultString += "AM"
         }
-            
+
         return resultString
     }
 }

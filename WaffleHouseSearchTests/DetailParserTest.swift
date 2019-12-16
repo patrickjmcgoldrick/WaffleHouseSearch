@@ -20,7 +20,7 @@ class DetailParserTest: XCTestCase {
     }
 
     func testDetailParser() {
-       
+
         let expectation = self.expectation(description: "Testing Detail Parser")
 
         let testBundle = Bundle(for: type(of: self))
@@ -39,12 +39,12 @@ class DetailParserTest: XCTestCase {
 
             XCTAssertNotNil(data, "Data came back nil")
 
-            print (data.description)
+            print(data.description)
 
             let parser = DetailParser()
 
             parser.parse(data: data) { (detailData) in
-                
+
                 print(detailData.name)
                 print(detailData.hours[0].is_open_now)
 

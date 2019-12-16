@@ -14,7 +14,7 @@ class DetailParser {
 
         // create decoder
         let jsonDecoder = JSONDecoder()
-        
+
         do {
             // decode json into structs
             let detailData = try jsonDecoder.decode(DetailData.self, from: data)
@@ -24,7 +24,7 @@ class DetailParser {
         } catch {
             print("Error Parsing SearchData from JSON: \(error.localizedDescription)")
         }
-        
+
     }
 
 }

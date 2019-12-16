@@ -9,11 +9,11 @@
 import UIKit
 
 class ImageLoader {
-    
+
     func loadImage(urlString: String, imageView: UIImageView) {
 
         if let url = URL(string: urlString) {
-            
+
             let network = NetworkController()
 
             network.loadData(url: url, completed: { (data) in
@@ -23,5 +23,5 @@ class ImageLoader {
                 }
             })
         }
-    }    
+    }
 }

@@ -20,9 +20,9 @@ class WaffleHouseSearchTests: XCTestCase {
     }
 
     func testSearchParser() {
-        
+
         let expectation = self.expectation(description: "Testing Search Parser")
-        
+
         let testBundle = Bundle(for: type(of: self))
         let filename = "waffleHouseSearch"
 
@@ -38,25 +38,24 @@ class WaffleHouseSearchTests: XCTestCase {
             let data = try Data(contentsOf: url)
 
             XCTAssertNotNil(data, "Data came back nil")
-            
-            print (data.description)
-            
+
+            print(data.description)
+
             let parser = SearchParser()
 
             parser.parse(data: data) { (searchData) in
                 for index in 0..<4 {
-                    //searchData.businesses?.count {
-                    print(searchData.businesses?[index].is_closed)
+                    guard let isClosed = searchData.businesses?[index].is_closed
+                        else { continue }
+                    XCTAssertFalse(isClosed)
                 }
-            
-                //XCTAssertTrue(tweets[0].text == "pair of dice, lost", "Unexpected Data returned")
                 expectation.fulfill()
             }
-        
+
         } catch {
             assertionFailure("Error: " + error.localizedDescription)
         }
-        
+
         waitForExpectations(timeout: 15, handler: nil)
     }
 }

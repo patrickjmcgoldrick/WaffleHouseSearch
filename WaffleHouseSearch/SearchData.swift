@@ -28,7 +28,7 @@ struct Business: Codable {
     var is_closed: Bool
     var categories: [Category]
     var coordinates: Coordinates
-    
+
     func toMiles(meters: Double) -> String {
         let distance = Measurement(value: meters, unit: UnitLength.meters)
         let miles = distance.converted(to: .miles)
@@ -56,5 +56,5 @@ struct Category: Codable {
 
 // MARK: - Region Elements
 struct Region: Codable {
-    var center:  Coordinates
+    var center: Coordinates
 }

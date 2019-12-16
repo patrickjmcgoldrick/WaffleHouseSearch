@@ -9,14 +9,14 @@
 import Foundation
 
 class NetworkController {
-    
+
     func loadData(url: URL, completed: @escaping (Data) -> Void) {
-    
+
         var urlRequest = URLRequest(url: url)
         urlRequest.setValue(YelpAPI.authorizationKey, forHTTPHeaderField: "Authorization")
-        
-        let task = URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
-            
+
+        let task = URLSession.shared.dataTask(with: urlRequest) { (data, _, error) in
+
             if let error = error {
                 print("Error: \(error.localizedDescription)")
                 return
@@ -29,4 +29,3 @@ class NetworkController {
         task.resume()
     }
 }
-

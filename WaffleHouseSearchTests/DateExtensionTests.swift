@@ -23,7 +23,7 @@ class DateExtensionTests: XCTestCase {
         let date = Date()
         print(date.getWeekday())
     }
-    
+
     func testYelpOrdinal() {
         let date = Date()
         print(date.getYelpWeekday())
