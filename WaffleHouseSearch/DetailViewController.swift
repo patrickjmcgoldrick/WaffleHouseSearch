@@ -25,6 +25,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var lblIsClosed: UILabel!
     
     var business: Business?
+    var details: DetailData?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,14 +71,14 @@ class DetailViewController: UIViewController {
             lblFoodType.text = categoryString
         }
         
-        // is Close or Open
-        if let isClosed = business?.is_closed {
-            if isClosed == true {
-                lblIsClosed.text = "Closed"
-                lblIsClosed.textColor = .systemRed
-            } else {
+        // is business open or closed?
+        if let isNowOpen = details?.hours[0].is_open_now {
+            if isNowOpen {
                 lblIsClosed.text = "Open"
                 lblIsClosed.textColor = .systemGreen
+            } else {
+                lblIsClosed.text = "Closed"
+                lblIsClosed.textColor = .systemRed
             }
         }
     }

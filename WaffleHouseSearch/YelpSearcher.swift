@@ -36,10 +36,30 @@ class YelpSearcher {
 
         guard let urlEncodedParams = encodedParams else { return nil }
 
-        let fullURL = YelpURLs.baseSearchURL + urlEncodedParams
+        let fullURL = YelpURLs.businessSearchEndpoint + urlEncodedParams
 
         return URL(string: fullURL)
     }
     
+    /// Call Yelp API with business {id] to get business Details
+    func readDetails(id: String, read: @escaping ((DetailData) -> Void)) {
+        
+        let urlString = YelpURLs.businessDetailEndpoint + id
+        
+        guard let url = URL(string: urlString) else { return }
+        
+        let network = NetworkController()
+            
+        network.loadData(url: url) { (data) in
+                       
+            let parser = DetailParser()
+            
+            parser.parse(data: data) { (detailData) in
+                
+                read(detailData)
+            }
+        }
+    }
+
 
 }

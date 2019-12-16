@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var searchedCoordinates: Coordinates?
     var businessesFound: [Business]?
     var selectedBusiness: Business?
+    var selectedDetails: DetailData?
     var markerToBusiness = [GMSMarker: Business]()
     
     override func viewDidLoad() {
@@ -84,6 +85,7 @@ class ViewController: UIViewController {
                 else { return }
             
             destination.business = selectedBusiness
+            destination.details = selectedDetails
         }
     }
 }
@@ -94,7 +96,19 @@ extension ViewController: GMSMapViewDelegate {
 
         selectedBusiness = markerToBusiness[marker]
         
-        performSegue(withIdentifier: "mapToDetailSegue", sender: self)
+        if let id = selectedBusiness?.id {
+            
+            let searcher = YelpSearcher()
+            searcher.readDetails(id: id) { (detailData) in
+                self.selectedDetails = detailData
+                
+                DispatchQueue.main.async {
+                    // wait for loading of detail data
+                    // before doing seque
+                    self.performSegue(withIdentifier: "mapToDetailSegue", sender: self)
+                }
+            }
+        }
         return true
     }
 }
