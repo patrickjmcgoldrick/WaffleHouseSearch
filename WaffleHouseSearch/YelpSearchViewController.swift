@@ -45,8 +45,22 @@ extension YelpSearchViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         if searchText.count >= 3 {
-
-            searchYelp(searchTerm: searchText)
+            
+            var url: URL?
+            
+            if let location = tfLocation.text {
+                if tfLocation.text == "" {
+                    url = yelpSearcher.createURL(searchTerm: searchText,
+                                       latitude: searchCoordinates.latitude,
+                                       longitude: searchCoordinates.longitude)
+                } else {
+                    url = yelpSearcher.createURL(searchTerm: searchText, location: location)
+                }
+            }
+            
+            guard let unrappedURL = url else { return }
+            
+            searchYelp(url: unrappedURL)
         }
     }
     
@@ -57,20 +71,21 @@ extension YelpSearchViewController: UISearchBarDelegate {
         performSegue(withIdentifier: "searchToMapSegue", sender: self)
     }
     
-    private func searchYelp(searchTerm: String) {
-
-        if let url = yelpSearcher.encodeURL(searchTerm: searchTerm) {
+    private func searchYelp(url: URL) {
             
-            yelpSearcher.readPointsFromYelp(url: url) { (businesses) in
-                
-                self.businessesFound = businesses
-                
-                DispatchQueue.main.async {
+        yelpSearcher.readPointsFromYelp(url: url) { (searchData) in
+            
+            guard let businesses = searchData.businesses else { return }
+            
+            self.businessesFound = businesses
+            self.searchCoordinates = searchData.region.center
+            
+            DispatchQueue.main.async {
 
-                    self.tableView.reloadData()
-                }
+                self.tableView.reloadData()
             }
         }
+        
     }
 }
 

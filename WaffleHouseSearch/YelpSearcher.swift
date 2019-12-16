@@ -11,7 +11,7 @@ import Foundation
 class YelpSearcher {
     
     /// Call Yelp API to the points of interest for the Map
-    func readPointsFromYelp(url: URL, found: @escaping (([Business]) -> Void)) {
+    func readPointsFromYelp(url: URL, found: @escaping ((SearchData) -> Void)) {
         
         let network = NetworkController()
             
@@ -20,20 +20,38 @@ class YelpSearcher {
             let parser = SearchParser()
             
             parser.parse(data: data) { (searchData) in
-                
-                guard let businesses = searchData.businesses else { return }
-                
-                found(businesses)
+                                
+                found(searchData)
             }
         }
     }
     
-    /// Note: Don't encode the ''?' or the URL will be invalid
-    func encodeURL(searchTerm: String) -> URL? {
-        // url encoding
-        let paramString = YelpURLs.searchParamsTerm + searchTerm + YelpURLs.searchParamsPosition
-        let encodedParams = paramString.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
+    /// Create URL with search term and location
+    func createURL(searchTerm: String, location: String) -> URL? {
+        
+        let paramString = YelpURLs.searchParamTerm + searchTerm
+            + YelpURLs.searchParamLocation + location
+        
+        return encodeURL(paramString: paramString)
 
+    }
+    
+    /// Create URL with search term and position (lat,long)
+    /// Note: Don't encode the ''?' or the URL will be invalid
+    func createURL(searchTerm: String, latitude: Double, longitude: Double) -> URL? {
+        
+        // url encoding
+        let paramString = YelpURLs.searchParamTerm + searchTerm
+            + YelpURLs.searchParamLatitude + String(latitude)
+            + YelpURLs.searchParamLongitude + String(longitude)
+        
+        return encodeURL(paramString: paramString)
+    }
+    
+    func encodeURL(paramString: String) -> URL? {
+        
+        let encodedParams = paramString.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
+        
         guard let urlEncodedParams = encodedParams else { return nil }
 
         let fullURL = YelpURLs.businessSearchEndpoint + urlEncodedParams

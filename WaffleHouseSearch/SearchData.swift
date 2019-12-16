@@ -7,10 +7,13 @@
 //
 import Foundation
 
+// MARK: Root
 struct SearchData: Codable {
     var businesses: [Business]?
+    var region: Region
 }
 
+// MARK: - Business Elements
 struct Business: Codable {
     var id: String
     var name: String
@@ -49,4 +52,9 @@ struct Location: Codable {
 
 struct Category: Codable {
     var title: String
+}
+
+// MARK: - Region Elements
+struct Region: Codable {
+    var center:  Coordinates
 }

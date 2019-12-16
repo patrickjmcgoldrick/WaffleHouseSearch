@@ -12,8 +12,10 @@ class YelpURLs {
     
     static let businessSearchEndpoint = "https://api.yelp.com/v3/businesses/search?"
     
-    static let searchParamsTerm = "term=" // waffle house
-    static let searchParamsPosition = "&latitude=33.9202195&longitude=-84.5348863"
+    static let searchParamTerm = "term=" // waffle house
+    static let searchParamLatitude = "&latitude="
+    static let searchParamLongitude = "&longitude="
+    static let searchParamLocation = "&location="
     
     static let businessDetailEndpoint = "https://api.yelp.com/v3/businesses/" // + {id}
 }
