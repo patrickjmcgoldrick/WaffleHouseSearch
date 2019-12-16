@@ -29,7 +29,13 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.isTranslucent = true
         navigationController?.view.backgroundColor = .clear
+        navigationController?.navigationBar.backgroundColor = .darkGray
+
+        navigationController?.navigationBar.alpha = 0.5
+        navigationController?.navigationBar.tintColor = .black
         
+        navigationController?.navigationBar.backgroundColor = .lightGray
+
         setupGoogleMap(
             latitude: coordinates.latitude,
             longitude: coordinates.longitude)
