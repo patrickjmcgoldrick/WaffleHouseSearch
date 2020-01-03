@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YelpHelper
 
 class DetailViewController: UIViewController {
 
@@ -109,33 +110,33 @@ class DetailViewController: UIViewController {
 
     func setupDetailData() {
         // is business open or closed?
-         if let isNowOpen = details?.hours[0].is_open_now,
-             let hourData = details?.hours[0].open {
-             let todayHours = hoursToday(days: hourData)
-             if todayHours.count == 0 {
-                 lblIsClosed.text = "Closed Today"
-                 lblIsClosed.textColor = .systemRed
-                 lblHours.text = ""
-             } else {
-
-                 if isNowOpen {
-                     lblIsClosed.text = "Open"
-                     lblIsClosed.textColor = .systemGreen
+        if let isNowOpen = details?.hours[0].is_open_now,
+            let hourData = details?.hours[0].open {
+            let todayHours = hoursToday(days: hourData)
+            if todayHours.count == 0 {
+                lblIsClosed.text = "Closed Today"
+                lblIsClosed.textColor = .systemRed
+                lblHours.text = ""
+            } else {
+                
+                if isNowOpen {
+                    lblIsClosed.text = "Open"
+                    lblIsClosed.textColor = .systemGreen
                 } else {
-                     lblIsClosed.text = "Closed"
-                     lblIsClosed.textColor = .systemRed
-                 }
+                    lblIsClosed.text = "Closed"
+                    lblIsClosed.textColor = .systemRed
+                }
                 // format today's hours
                 let formattedHours = formatTimeData(start: todayHours[0].start, end: todayHours[0].end)
                 lblHours.text = formattedHours
-             }
-         }
+            }
+        }
     }
 
     func loadDetails() {
         if let id = business?.id {
 
-            let searcher = YelpSearcher()
+            let searcher = YelpSearcher(apiKey: YelpAPI.authorizationKey)
             searcher.readDetails(id: id) { (detailData) in
                 self.details = detailData
 

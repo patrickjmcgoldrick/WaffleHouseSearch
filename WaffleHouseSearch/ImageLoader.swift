@@ -9,19 +9,24 @@
 import UIKit
 
 class ImageLoader {
-
+    
     func loadImage(urlString: String, imageView: UIImageView) {
-
+        
         if let url = URL(string: urlString) {
-
-            let network = NetworkController()
-
-            network.loadData(url: url, completed: { (data) in
-
+            
+            let task = URLSession.shared.dataTask(with: url) { (data, _, error) in
+                
+                if let error = error {
+                    print("Error: \(error.localizedDescription)")
+                    return
+                }
+                
+                guard let data = data else { return }
                 DispatchQueue.main.async {
                     imageView.image = UIImage(data: data)
                 }
-            })
+            }
+            task.resume()
         }
     }
 }

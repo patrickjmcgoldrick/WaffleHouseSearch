@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YelpHelper
 
 class YelpSearchViewController: UIViewController {
 
@@ -18,7 +19,7 @@ class YelpSearchViewController: UIViewController {
 
     var businessesFound = [Business]()
     var searchCoordinates = Coordinates(latitude: 33.9202195, longitude: -84.5348863)
-    let yelpSearcher = YelpSearcher()
+    let yelpSearcher = YelpSearcher(apiKey: YelpAPI.authorizationKey)
 
     override func viewDidLoad() {
         super.viewDidLoad()

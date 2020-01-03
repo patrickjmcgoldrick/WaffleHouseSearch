@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YelpHelper
 import GoogleMaps
 
 class ViewController: UIViewController {
@@ -103,7 +104,7 @@ extension ViewController: GMSMapViewDelegate {
 
         if let id = selectedBusiness?.id {
 
-            let searcher = YelpSearcher()
+            let searcher = YelpSearcher(apiKey: YelpAPI.authorizationKey)
             searcher.readDetails(id: id) { (detailData) in
                 self.selectedDetails = detailData
 

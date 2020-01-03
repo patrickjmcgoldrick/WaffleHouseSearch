@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E0591E3239F26170075E8F3 /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0591E2239F26170075E8F3 /* SearchParser.swift */; };
-		5E0591E5239F26920075E8F3 /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0591E4239F26920075E8F3 /* SearchData.swift */; };
 		5E0591E7239F32610075E8F3 /* waffleHouseSearch.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E0591E6239F32610075E8F3 /* waffleHouseSearch.json */; };
 		5E0591E9239F46EB0075E8F3 /* YelpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0591E8239F46EB0075E8F3 /* YelpAPI.swift */; };
 		5E11A83A239F0BDE0046244A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A839239F0BDE0046244A /* AppDelegate.swift */; };
@@ -20,22 +18,16 @@
 		5E11A849239F0BE10046244A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E11A847239F0BE10046244A /* LaunchScreen.storyboard */; };
 		5E11A854239F0BE20046244A /* WaffleHouseSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A853239F0BE20046244A /* WaffleHouseSearchTests.swift */; };
 		5E11A85F239F0BE20046244A /* WaffleHouseSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A85E239F0BE20046244A /* WaffleHouseSearchUITests.swift */; };
-		5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86C239F1A4D0046244A /* YelpURLs.swift */; };
-		5E11A86F239F1D7A0046244A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11A86E239F1D7A0046244A /* NetworkController.swift */; };
 		5E3C7D1523A6A76800F3C024 /* RatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1423A6A76800F3C024 /* RatingView.xib */; };
 		5E3C7D1723A6BC4300F3C024 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1623A6BC4300F3C024 /* RatingView.swift */; };
 		5E3C7D1923A6D34A00F3C024 /* chick-fil-a_onSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1823A6D34A00F3C024 /* chick-fil-a_onSunday.json */; };
-		5E3C7D1D23A6DA8600F3C024 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1C23A6DA8600F3C024 /* DetailData.swift */; };
 		5E3C7D1F23A6DDED00F3C024 /* chick-fil-a_Detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D1E23A6DDED00F3C024 /* chick-fil-a_Detail.json */; };
-		5E3C7D2123A6DED200F3C024 /* DetailParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2023A6DED200F3C024 /* DetailParser.swift */; };
 		5E3C7D2323A6E00E00F3C024 /* DetailParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2223A6E00E00F3C024 /* DetailParserTest.swift */; };
 		5E3C7D2523A6E4F900F3C024 /* waffleHouse_Detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2423A6E4F900F3C024 /* waffleHouse_Detail.json */; };
-		5E3C7D2923A7062A00F3C024 /* Date_Exctension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2823A7062A00F3C024 /* Date_Exctension.swift */; };
 		5E3C7D2B23A7069E00F3C024 /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C7D2A23A7069E00F3C024 /* DateExtensionTests.swift */; };
 		5E50C3B323A610D700C4F339 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E50C3B223A610D700C4F339 /* DetailViewController.swift */; };
 		5E50C3B723A6265100C4F339 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E50C3B623A6265100C4F339 /* ImageLoader.swift */; };
 		5E54442123A46983005A2113 /* YelpSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54442023A46983005A2113 /* YelpSearchViewController.swift */; };
-		5ECECB0E23A4993100B2E486 /* YelpSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */; };
 		5ECECB1023A5349800B2E486 /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB0F23A5349800B2E486 /* ParallaxViewController.swift */; };
 		5ECECB1223A57DF000B2E486 /* ParallaxVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB1123A57DF000B2E486 /* ParallaxVerticalViewController.swift */; };
 		5ECECB1423A5802000B2E486 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECECB1323A5802000B2E486 /* ImageTableViewCell.swift */; };
@@ -64,8 +56,6 @@
 /* Begin PBXFileReference section */
 		0B5C8854D2B73E904A935B1C /* Pods-WaffleHouseSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearchTests.release.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearchTests/Pods-WaffleHouseSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D3AC569E0FFC9440C445795 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5E0591E2239F26170075E8F3 /* SearchParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParser.swift; sourceTree = "<group>"; };
-		5E0591E4239F26920075E8F3 /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
 		5E0591E6239F32610075E8F3 /* waffleHouseSearch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waffleHouseSearch.json; path = testData/waffleHouseSearch.json; sourceTree = SOURCE_ROOT; };
 		5E0591E8239F46EB0075E8F3 /* YelpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPI.swift; sourceTree = "<group>"; };
 		5E11A836239F0BDE0046244A /* WaffleHouseSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaffleHouseSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,23 +73,17 @@
 		5E11A85A239F0BE20046244A /* WaffleHouseSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaffleHouseSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E11A85E239F0BE20046244A /* WaffleHouseSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaffleHouseSearchUITests.swift; sourceTree = "<group>"; };
 		5E11A860239F0BE20046244A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E11A86C239F1A4D0046244A /* YelpURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpURLs.swift; sourceTree = "<group>"; };
-		5E11A86E239F1D7A0046244A /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		5E3C7D1423A6A76800F3C024 /* RatingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingView.xib; sourceTree = "<group>"; };
 		5E3C7D1623A6BC4300F3C024 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		5E3C7D1823A6D34A00F3C024 /* chick-fil-a_onSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "chick-fil-a_onSunday.json"; path = "testData/chick-fil-a_onSunday.json"; sourceTree = SOURCE_ROOT; };
-		5E3C7D1C23A6DA8600F3C024 /* DetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
 		5E3C7D1E23A6DDED00F3C024 /* chick-fil-a_Detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "chick-fil-a_Detail.json"; path = "testData/chick-fil-a_Detail.json"; sourceTree = SOURCE_ROOT; };
-		5E3C7D2023A6DED200F3C024 /* DetailParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailParser.swift; sourceTree = "<group>"; };
 		5E3C7D2223A6E00E00F3C024 /* DetailParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailParserTest.swift; sourceTree = "<group>"; };
 		5E3C7D2423A6E4F900F3C024 /* waffleHouse_Detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = waffleHouse_Detail.json; path = testData/waffleHouse_Detail.json; sourceTree = SOURCE_ROOT; };
-		5E3C7D2823A7062A00F3C024 /* Date_Exctension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_Exctension.swift; sourceTree = "<group>"; };
 		5E3C7D2A23A7069E00F3C024 /* DateExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
 		5E50C3B223A610D700C4F339 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5E50C3B623A6265100C4F339 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		5E52234FD7DBFF25FB41BAB8 /* Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaffleHouseSearch_WaffleHouseSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E54442023A46983005A2113 /* YelpSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpSearchViewController.swift; sourceTree = "<group>"; };
-		5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpSearcher.swift; sourceTree = "<group>"; };
 		5ECECB0F23A5349800B2E486 /* ParallaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewController.swift; sourceTree = "<group>"; };
 		5ECECB1123A57DF000B2E486 /* ParallaxVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxVerticalViewController.swift; sourceTree = "<group>"; };
 		5ECECB1323A5802000B2E486 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
@@ -181,21 +165,13 @@
 				5E50C3B623A6265100C4F339 /* ImageLoader.swift */,
 				5E11A83B239F0BDE0046244A /* SceneDelegate.swift */,
 				5E11A83D239F0BDE0046244A /* ViewController.swift */,
-				5E3C7D2823A7062A00F3C024 /* Date_Exctension.swift */,
 				5E50C3B223A610D700C4F339 /* DetailViewController.swift */,
-				5E3C7D2023A6DED200F3C024 /* DetailParser.swift */,
-				5E3C7D1C23A6DA8600F3C024 /* DetailData.swift */,
-				5ECECB0D23A4993100B2E486 /* YelpSearcher.swift */,
 				5E54442023A46983005A2113 /* YelpSearchViewController.swift */,
 				5E3C7D1423A6A76800F3C024 /* RatingView.xib */,
 				5E3C7D1623A6BC4300F3C024 /* RatingView.swift */,
 				5ECECB0F23A5349800B2E486 /* ParallaxViewController.swift */,
 				5ECECB1123A57DF000B2E486 /* ParallaxVerticalViewController.swift */,
 				5ECECB1323A5802000B2E486 /* ImageTableViewCell.swift */,
-				5E0591E2239F26170075E8F3 /* SearchParser.swift */,
-				5E0591E4239F26920075E8F3 /* SearchData.swift */,
-				5E11A86E239F1D7A0046244A /* NetworkController.swift */,
-				5E11A86C239F1A4D0046244A /* YelpURLs.swift */,
 				5E0591E8239F46EB0075E8F3 /* YelpAPI.swift */,
 				5E11A845239F0BE10046244A /* Assets.xcassets */,
 				5E11A847239F0BE10046244A /* LaunchScreen.storyboard */,
@@ -253,6 +229,7 @@
 				5E11A834239F0BDE0046244A /* Resources */,
 				B357017558089A498D42FA13 /* [CP] Copy Pods Resources */,
 				5E3C7D2C23A7DC8E00F3C024 /* ShellScript */,
+				1F1844DB515F2C25724C700C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,6 +268,7 @@
 				5E11A857239F0BE20046244A /* Frameworks */,
 				5E11A858239F0BE20046244A /* Resources */,
 				97D0CCC1DA84258E1CD6066D /* [CP] Copy Pods Resources */,
+				33BCD19B011D61AD2544F014 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,6 +356,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F1844DB515F2C25724C700C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch/Pods-WaffleHouseSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2CC6837A441ECF1309F39A61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,6 +393,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33BCD19B011D61AD2544F014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaffleHouseSearch-WaffleHouseSearchUITests/Pods-WaffleHouseSearch-WaffleHouseSearchUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		592405BC4F7265EEE8A87A73 /* [CP] Check Pods Manifest.lock */ = {
@@ -503,23 +515,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E11A83E239F0BDE0046244A /* ViewController.swift in Sources */,
-				5ECECB0E23A4993100B2E486 /* YelpSearcher.swift in Sources */,
 				5E11A844239F0BDE0046244A /* WaffleHouseSearch.xcdatamodeld in Sources */,
-				5E11A86F239F1D7A0046244A /* NetworkController.swift in Sources */,
 				5E0591E9239F46EB0075E8F3 /* YelpAPI.swift in Sources */,
-				5E3C7D2923A7062A00F3C024 /* Date_Exctension.swift in Sources */,
 				5ECECB1223A57DF000B2E486 /* ParallaxVerticalViewController.swift in Sources */,
 				5E50C3B723A6265100C4F339 /* ImageLoader.swift in Sources */,
-				5E0591E5239F26920075E8F3 /* SearchData.swift in Sources */,
 				5ECECB1423A5802000B2E486 /* ImageTableViewCell.swift in Sources */,
-				5E0591E3239F26170075E8F3 /* SearchParser.swift in Sources */,
 				5ECECB1023A5349800B2E486 /* ParallaxViewController.swift in Sources */,
 				5E3C7D1723A6BC4300F3C024 /* RatingView.swift in Sources */,
-				5E3C7D1D23A6DA8600F3C024 /* DetailData.swift in Sources */,
-				5E3C7D2123A6DED200F3C024 /* DetailParser.swift in Sources */,
 				5E50C3B323A610D700C4F339 /* DetailViewController.swift in Sources */,
 				5E11A83A239F0BDE0046244A /* AppDelegate.swift in Sources */,
-				5E11A86D239F1A4D0046244A /* YelpURLs.swift in Sources */,
 				5E54442123A46983005A2113 /* YelpSearchViewController.swift in Sources */,
 				5E11A83C239F0BDE0046244A /* SceneDelegate.swift in Sources */,
 			);
@@ -776,7 +780,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD99283A476F4FDC2035DD12 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WaffleHouseSearchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -796,7 +800,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D3AC569E0FFC9440C445795 /* Pods-WaffleHouseSearch-WaffleHouseSearchUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WaffleHouseSearchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
