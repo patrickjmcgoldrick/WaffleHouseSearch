@@ -1,0 +1,6 @@
+framework module YelpHelper {
+  umbrella header "YelpHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

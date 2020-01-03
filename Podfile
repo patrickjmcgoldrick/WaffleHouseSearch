@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'WaffleHouseSearch' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,6 +7,7 @@ target 'WaffleHouseSearch' do
 
   # Pods for WaffleHouseSearch
   pod 'GoogleMaps'
+  pod 'YelpHelper', :path => '../YelpHelper'
 
   target 'WaffleHouseSearchTests' do
     inherit! :search_paths
